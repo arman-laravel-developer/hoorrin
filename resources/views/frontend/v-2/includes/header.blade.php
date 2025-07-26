@@ -8,7 +8,7 @@
                 <form action="{{url('/view/product/search')}}" method="GET" class="form-group search-form">
                     @csrf
                     <input type="text" name="search" class="form-control" placeholder="Search for items...">
-                    <button type="submit"><i class="fas fa-search"></i></button>
+                    <button type="submit"><i class="fas fa-search" style="color: #ffd500"></i></button>
                 </form>
             </div>
             <div class="header-top-right-outer">
