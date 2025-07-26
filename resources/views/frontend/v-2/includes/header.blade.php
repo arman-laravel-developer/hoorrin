@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header-top-wrapper" style="background-color: #00211e;">
             <a href="{{ url('/') }}" class="brand-logo-outer">
-                <img src="{{asset('setting/'.$setting->logo)}}">
+                <img src="{{asset('setting/'.$setting->logo)}}" style="padding-left: 10%;">
             </a>
             <div class="search-form-outer">
                 <form action="{{url('/view/product/search')}}" method="GET" class="form-group search-form">
