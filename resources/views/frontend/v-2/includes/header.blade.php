@@ -1,6 +1,6 @@
 <header class="header-section">
     <div class="container">
-        <div class="header-top-wrapper">
+        <div class="header-top-wrapper" style="background-color: #00211e;">
             <a href="{{ url('/') }}" class="brand-logo-outer">
                 <img src="{{asset('setting/'.$setting->logo)}}">
             </a>
@@ -19,7 +19,7 @@
                     <div class="header-top-right-item dropdown">
                         <div class="header-top-right-item-link">
                             <span class="icon-outer">
-                                <i class="fas fa-cart-plus"></i>
+                                <i class="fas fa-cart-plus" style="color: #ffd500"></i>
                                 <span class="count-number">{{$carts->count()}}</span>
                             </span>
                             Cart
@@ -83,7 +83,7 @@
                              </form>
                             @endif
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
