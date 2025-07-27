@@ -1,5 +1,5 @@
 <header class="header-section">
-    <div class="container">
+    <div class="">
         <div class="header-top-wrapper" style="background-color: #00211e;">
             <a href="{{ url('/') }}" class="brand-logo-outer">
                 <img src="{{asset('setting/'.$setting->logo)}}" style="padding-left: 10%;">
