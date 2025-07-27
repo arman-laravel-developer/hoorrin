@@ -135,10 +135,7 @@
     <div class="footer__bottom-wrapper">
         <div class="container">
             <p class="footer__bottom-text">
-                © {{ date('Y') }}, All rights reserved
-                <strong class="text-brand" style="color: cornflowerblue">{{env('APP_NAME')}}</strong> |
-                Designed & Developed by
-                <a href="https://webcare-it.com/" target="_blank" rel="noopener noreferrer" class="text-brand fw-bold" style="color: cornflowerblue">Webcare IT</a>
+                <b>© {{date('Y')}} Hoorrin. All Rights Reserved.</b>
             </p>
         </div>
     </div>
