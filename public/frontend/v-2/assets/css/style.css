@@ -932,7 +932,7 @@ font-family: "Cairo", sans-serif;
       z-index: -1;
       content: '';
       display: block;
-      border: 5px solid #f74b81;
+      border: 5px solid #FFD500;
       border-top-color: transparent;
       border-right-color: transparent;
       top: 0px;
@@ -944,7 +944,7 @@ font-family: "Cairo", sans-serif;
       z-index: -1;
       content: '';
       display: block;
-      border: 5px solid #f74b81;
+      border: 5px solid #FFD500;
       border-top-color: transparent;
       border-right-color: transparent;
       bottom: 56px;
@@ -1070,7 +1070,7 @@ font-family: "Cairo", sans-serif;
 
 /* Product badges color css start */
 .product-image-outer .product-badges.hot span {
-    background-color: #f74b81;
+    background-color: #FFD500;
 }
 
 .product-image-outer .product-badges.offer span {
@@ -1289,7 +1289,7 @@ font-family: "Cairo", sans-serif;
 
 /*Footer section css start*/
 .footer-section {
-    background: #212129;
+    background: #00211E;
 }
 
 .footer__top-wrapper {
